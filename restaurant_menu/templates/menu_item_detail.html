@@ -1,0 +1,13 @@
+{% extends 'base.html'%}
+{% block content %}
+
+<div class="container">
+    <h1 class="pt-5">{{ item.meal }}</h1>
+    <p class="pt-2">{{ item.description }}</p>
+    <p class="badge bg-secondary rounded-pill">${{ item.price }}</p>
+
+</div>
+
+{% endblock %}
+
+  
